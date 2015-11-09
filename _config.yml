@@ -1,0 +1,28 @@
+name: CyberTrad
+favicon: null
+layout_spectrum: 0.5
+typography_spectrum: 0.1059295292943716
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#002426'
+    - '#992730'
+    - '#00e3e0'
+    - '#008c8c'
+    - '#647072'
+  brandStrength: 0.5
+  lightness: 0.04865726293064654
+  saturation: 0.33237864170223475
+  rhythmicContrast: 0.035004106583073735
+purpose: []
