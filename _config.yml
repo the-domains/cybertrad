@@ -1,28 +1,40 @@
-name: CyberTrad
 favicon: null
-layout_spectrum: 0.5
-typography_spectrum: 0.50455
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: CyberTrad
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.5943847
+  brandStrength: 0.4438471
+  lightness: 0.5716845
   brandColors:
     - '#002426'
     - '#992730'
     - '#00e3e0'
     - '#008c8c'
     - '#647072'
-  brandStrength: 0.5
-  lightness: 0.125
-  saturation: 0
-  rhythmicContrast: 0.25
-purpose: []
+  rhythmicContrast: 0.4259259
+typography_spectrum: 0.50455
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
